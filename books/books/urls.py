@@ -27,4 +27,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-urlpatterns += router
+urlpatterns += router.urls
